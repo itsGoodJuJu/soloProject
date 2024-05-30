@@ -1,0 +1,10 @@
+.letterCard {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+    /* height: 20%; */
+    width: 50%;
+}
