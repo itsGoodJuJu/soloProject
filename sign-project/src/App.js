@@ -20,7 +20,7 @@ function App() {
         <Router>
           <div>
             <Switch>
-              <Route path ="/">
+              <Route path ="/home">
                 <Home />
               </Route>
               <Route path ="/spell">
