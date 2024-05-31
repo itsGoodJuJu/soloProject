@@ -4,11 +4,13 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.css';
+import Hand from '../../images/hand.png'
 
 function NavBar() {
   return (
     <>
         <Navbar bg="dark" data-bs-theme="dark" expand="sm" className="bg-body-tertiary">
+            <img className="logo" src={Hand} alt="hand" />
             <Navbar.Brand href="/home">Handy-Dandy</Navbar.Brand>
                 <Nav className="me-auto">
                 <Nav.Link href="/home">Home</Nav.Link>

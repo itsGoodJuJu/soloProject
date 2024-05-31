@@ -4,6 +4,7 @@ import './Donate.css'
 function Donate() {
   return (
     <>
+      <h1 className='donate'>Donations and Merch</h1>
       <div className='page'>
         {/* ILY merch shirt */}
         <stripe-buy-button

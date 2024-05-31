@@ -1,12 +1,23 @@
 .page {
     background-color: #FFFADD;
     margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate {
+    display: flex;
+    justify-content: center;
+    color: #22668D;
+    margin-top: 2%;
+    text-decoration: underline #FFCC70 ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
 stripe-buy-button {
     margin: 2%;
-    padding-top: 20%;
 }
 
 

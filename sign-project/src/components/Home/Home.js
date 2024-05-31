@@ -1,5 +1,5 @@
 import React, {createContext} from 'react';
-import Welcome from '../../images/welcome.gif'
+import Welcome from '../../images/welcome.gif';
 import './Home.css'
 
 export const wordContext = createContext();

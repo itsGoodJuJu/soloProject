@@ -38,6 +38,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5%;
+}
+
+.logo {
+    width: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 /* 
