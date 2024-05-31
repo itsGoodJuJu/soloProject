@@ -18,6 +18,7 @@
 
 
 import React, { Component } from 'react';
+import './Quiz.css';
 
 class Choices extends Component {
 	render() {

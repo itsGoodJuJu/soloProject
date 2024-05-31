@@ -1,6 +1,6 @@
 import './App.css';
 import Home from './components/Home/Home';
-import Dictionary from './components/Dictionary/Dictionary';
+import Generate from './components/Spelling/GenerateWord';
 import Flashcard from './components/Practice/FlashcardStudy';
 import Quiz from './components/Quiz/Quiz';
 import NavBar from './components/Home/NavBar';
@@ -23,8 +23,8 @@ function App() {
               <Route path ="/home">
                 <Home />
               </Route>
-              <Route path ="/dictionary">
-                <Dictionary />
+              <Route path ="/spell">
+                <Generate />
               </Route>
               <Route path ="/study">
                 <Flashcard />

@@ -1,6 +1,59 @@
-.App {
-    background-color: #8ECDDD;
+.app-title {
+  color: #22668D;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+  text-decoration: underline #FFCC70 ;
 }
+
+.App {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #8ECDDD;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  border: solid 7px #FFCC70;
+  border-radius: 10%;
+  margin: auto;
+}
+
+.quizCard {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.questionNo {
+  margin-top: 7%;
+  color: #22668D;
+  font-weight:510;
+}
+
+.choices {
+  color: #22668D;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.btn {
+  margin: 5%;
+}
+
+.resultBox {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 5%;
+  color: #22668D;
+  margin-bottom: 2%;
+}
+
+.pic {
+  border: solid 5px #22668D;
+}
+
+
 
   /* 
 #FFCC70

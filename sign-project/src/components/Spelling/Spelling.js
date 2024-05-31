@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
-import { wordContext } from '../APIs/RandomWordAPI';
+import { wordContext } from './RandomWordAPI';
 
-function Spelling() {
+export default function Spelling() {
     const wordLetter = useContext(wordContext);
 
   return (
@@ -11,4 +11,3 @@ function Spelling() {
   )
 }
 
-export default Spelling

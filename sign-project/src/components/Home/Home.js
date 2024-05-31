@@ -1,29 +1,24 @@
 import React, {createContext} from 'react';
-// import SpellingAPI from '../APIs/SpellingAPI';
-import RandomWordAPI from '../APIs/RandomWordAPI';
-import {aslLetters} from '../Dictionary/aslLetters';
+import Welcome from '../../images/welcome.gif'
 import './Home.css'
 
 export const wordContext = createContext();
 
 function Home() {
 
-  const searchMap = aslLetters.map(letters => 
-    // return letter.url;
-    <div className='letterCard' key={letters.letter}>
-      <div>
-        <img className="signLetter" src={letters.url} />
-        <h4>{letters.letter}</h4>
-      </div>
-    </div>
-  )   
-  // console.log(searchMap)
 
   return (
     <>
-      <div>Home</div>
-      <RandomWordAPI />
-      {searchMap}
+      <h1 className='welcome'>Welcome to Handy-Dandy!</h1>
+      <div className='gifDiv'>
+        <img className='welcomeGif' src={Welcome} alt="Welcome"/>
+      </div>
+      <div className='messageDiv'>
+        <div className='message'>
+          Here on Handy-Dandy, you have access to information on American Sign Language (a really handy skill to learn)! <br /> <br /> Navigate the website to learn some new signs, practice your finger-spelling, and test your knowledge with a quiz! Consider checking out our donation page to support the website or our local deaf school, the Atlanta Area School for the Deaf (AASD).
+        </div>
+      </div>
+      
     </>
   )
 }

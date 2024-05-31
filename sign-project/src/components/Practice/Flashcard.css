@@ -1,10 +1,24 @@
-.card-grid {
-    display: grid;
+.study {
+    display: flex;
+    justify-content: center;
+    color: #22668D;
+    margin-top: 2%;
+    text-decoration: underline #FFCC70 ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-layout {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card-flex {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 1rem;
-    margin: 20px 20px 20px 45px;
-    padding: 30px;
+    flex-wrap: wrap;
+    margin: 2%;
 }
 
 .flashcard, .flashcard2 {
@@ -14,19 +28,20 @@
     align-items: center;
     position: relative;
     border-radius: 0.35rem;
-    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
-    background-color: rgba(245, 245, 245, 0.973);
+    box-shadow: 0 0 5px 5px #22668D;
+    background-color: #f5f5f5f8;
     transform-style: preserve-3d;
     transition: 200ms;
     cursor: pointer;
     transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
     height: 250px;
-    width: 200px;
+    width: 50%;
     margin: 10px;
 }
 
 .flashcard:hover{
     --translate-y: -2px;
+    box-shadow: 0 0 5px 5px #8ECDDD;
 }
 
 .flashcard.flash, .flashcard2.flash {
@@ -35,9 +50,30 @@
 
 .front, .back {
     position: absolute;
-    padding: 1rem;
     backface-visibility: hidden;
+    color: #22668D;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
 }
+
+.flipCount {
+    color: #22668D;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: 510;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+
+}
+
+.indivCount {
+    color: #22668D;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: 510;
+}
+
 
 .flashcard .back , .flashcard2 .back{
     transform: rotateY(180deg);
@@ -46,3 +82,17 @@
 /* .card .back {
     max-width: 75px;
 } */
+
+.resetButton {
+    width: 8%;
+    color: #22668D;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+ /* 
+#FFCC70
+#FFFADD
+#8ECDDD
+#22668D
+ */

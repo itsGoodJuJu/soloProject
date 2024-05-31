@@ -1,5 +1,6 @@
 import React, {useEffect, useState, createContext} from 'react';
-import Spelling from '../Home/Spelling';
+import Spelling from './Spelling';
+import Button from 'react-bootstrap/Button';
 
 export const wordContext = createContext();
 
@@ -22,11 +23,13 @@ function RandomWordAPI() {
 
   return (
     <>
-        <button onClick={fetchWord}>Generate</button>
-        <div>{randomWord}</div>
-        <wordContext.Provider value={randomWord[0]}>
+        <div className='genButton'>
+            <Button onClick={fetchWord} variant="warning" >Generate Spelling Word</Button>
+        </div>
+        <h3 className='randWord'>{randomWord}</h3>
+        {/* <wordContext.Provider value={randomWord[0]}>
             <Spelling />
-        </wordContext.Provider>
+        </wordContext.Provider> */}
     </>
   )
 }

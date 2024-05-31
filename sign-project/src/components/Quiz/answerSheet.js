@@ -7,33 +7,33 @@ import Who from '../../images/who.gif';
 const qBank = [
 	{
 		id: 1,
-		question: <img src={Dog} alt="finger-snapping" height="20%" width = "150px" /> ,
-		options: ["dog", "snap", "quick", "music"],
-		answer: "dog",
+		question: <img src={Dog} alt="finger-snapping" width = "400px" /> ,
+		options: ["Dog", "Snap", "Quick", "Music"],
+		answer: "Dog",
 	},
 	{
 		id: 2,
-		question: <img src={Answer} alt="finger-snapping" height="20%" width = "150px" /> ,
-		options: ["go", "answer", "point", "noodle"],
-		answer: "answer",
+		question: <img src={Answer} alt="finger-snapping" width = "400px" /> ,
+		options: ["Go", "Answer", "Point", "Noodle"],
+		answer: "Answer",
 	},
 	{
 		id: 3,
-		question: <img src={Meet} alt="finger-snapping" height="20%" width = "150px" /> ,
-		options: ["close", "fight", "support", "meet"],
-		answer: "meet"
+		question: <img src={Meet} alt="finger-snapping" width = "400px" /> ,
+		options: ["Close", "Fight", "Support", "Meet"],
+		answer: "Meet"
 	},
 	{
 		id: 4,
-		question: <img src={Vacation} alt="finger-snapping" height="20%" width = "150px" /> ,
-		options: ["feathers", "vacation", "jacket", "scary"],
-		answer: "vacation"
+		question: <img src={Vacation} alt="finger-snapping" width = "400px" /> ,
+		options: ["Feathers", "Vacation", "Jacket", "Scary"],
+		answer: "Vacation"
 	},
 	{
 		id: 5,
-		question: <img src={Who} alt="finger-snapping" height="20%" width = "150px" /> ,
-		options: ["how", "cool", "blow", "who"],
-		answer: "who"
+		question: <img src={Who} alt="finger-snapping" width = "400px" /> ,
+		options: ["How", "Cool", "Blow", "Who"],
+		answer: "Who"
 	},
 ]
 
