@@ -4,9 +4,8 @@ import './Flashcard.css';
 
 export const flipContext = createContext();
 
-
 export default function Flashcard() {
-  
+  // keeps track of how many times you flip a flashcard, starts at 0
   const [flipCount, setFlipCount] = useState(0)
   
   return (
@@ -18,8 +17,8 @@ export default function Flashcard() {
         <flipContext.Provider value={[flipCount, setFlipCount]}>
           <Card />
           <Card />
-          <Card />
-          <Card />
+          {/* <Card />
+          <Card /> */}
         </flipContext.Provider>
       </div>
     </>

@@ -1,3 +1,4 @@
+// array of sign language ABCs
 export const aslLetters = [
         {
             letter: "A/a",

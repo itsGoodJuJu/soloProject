@@ -6,7 +6,7 @@ export const wordContext = createContext();
 
 function RandomWordAPI() {
     const [randomWord, setRandomWord] = useState('');
-
+    // fetches the random word API
     async function fetchWord() {
         await fetch(`https://api.api-ninjas.com/v1/randomword`, {
             method: 'GET',
@@ -16,6 +16,7 @@ function RandomWordAPI() {
         }) 
         .then(res => res.json())
         .then(data => {
+            // updates the useState with the randomly generated word
             setRandomWord(data.word)
         })
         

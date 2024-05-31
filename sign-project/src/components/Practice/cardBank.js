@@ -1,3 +1,4 @@
+// array of flash card items
 export const cardBank = [
     {
         word: "What's Up!",

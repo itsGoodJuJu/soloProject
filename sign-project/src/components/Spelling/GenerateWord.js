@@ -7,7 +7,7 @@ import './GenerateWord.css'
 export const wordContext = createContext();
 
 function Home() {
-
+  // map through the ASL Letters array to return the matching letter and sign letter
   const searchMap = aslLetters.map(letters => 
     <div className='letterCard' key={letters.letter}>
       <div>

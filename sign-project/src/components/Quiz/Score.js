@@ -8,6 +8,7 @@ class Score extends Component {
 		return (
 			<div className='resultBox'>
 				<h2>Results</h2>
+				{/* shows the updated score at the end of the quiz */}
 				<h4>Your score: {score}</h4>
 			</div>
 		);
